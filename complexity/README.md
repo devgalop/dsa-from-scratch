@@ -99,10 +99,12 @@ Un ejemplo de esto es **generar todos los subconjuntos de un conjunto**
 ```cs
 public void GenerateSubsets(int arr[], int n)
 {
+    //El simbolo << es un operador entre bits y corre los bits a la izquierda
     for (int i = 0; i < (1 << n); i++)
     {
         for (int j = 0; j < n; j++)
         {
+            //El condicional valida a nivel de bits si el bit en la posicion i está encendido
             if ((i & (1 << j)) != 0)
             {
                 Console.Write(arr[j] + " ");
@@ -112,5 +114,41 @@ public void GenerateSubsets(int arr[], int n)
     }
 }
 ```
+**Factorial Time Complexity O(n!)**
+La notación factorial hace referencia a que el tiempo de ejecucion de un algoritmo crece según el factorial del tamaño de la entrada. Generalmente se ve en algoritmos que generan una permutación de un conjunto de datos.
+
+Un ejemplo de esto es **generar una permutación de un array**
+```cs
+public void Permute(int arr[], int l, int r)
+{
+    //El simbolo << es un operador entre bits y corre los bits a la izquierda
+    for (int i = 0; i < (1 << n); i++)
+    {
+        if (l == r)
+        {
+            for (int i = 0; i <= r; i++)
+            {
+                Console.Write(array[i] + " ");
+            }
+            Console.WriteLine();
+        }
+        else
+        {
+            for (int i = l; i <= r; i++)
+            {
+                Swap(ref array[l], ref array[i]);
+                Permute(array, l + 1, r);
+                Swap(ref array[l], ref array[i]); // backtrack
+            }
+        }
+    }
+}
+```
+
+El siguiente diagrama muestra las notaciones más comunes del **Big-O notation**
+
+![big-o-plot](resources/big-o-plot.png)
+
+*Imagen de referencia tomada de [FreeCodeCamp](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/)*
 
 Si desea profundizar más sobre algún concepto, remitase a la fuente [Geek for Geeks](https://www.geeksforgeeks.org/dsa/analysis-of-algorithms/)
