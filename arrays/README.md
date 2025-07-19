@@ -15,6 +15,7 @@ Esta colección **solo** permite almacenar el mismo tipo de variable en todos lo
 Todos los elementos de un array están almacenados dentro de locaciones continuas en la memoria. Al momento de inicializar un array, se reserva el espacio en memoria.
 
 ![array-representation](resources/array-representation.png)
+
 *Imagen referencia tomada de [Geek for Geeks](https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/)*
 
 ## Tipos de arrays

@@ -74,7 +74,7 @@ public void BubbleSort(int arr[], int n)
 }
 ```
 
-**Cubic Time Complexity O(n^2)**
+**Cubic Time Complexity O(n^3)**
 La notación cubica se aplica a los tiempos de ejecución de un algoritmo es proporcional al cubo de la entrada de los datos.
 
 Un ejemplo de esto es **el algoritmo de multiplicacion de matrices**
