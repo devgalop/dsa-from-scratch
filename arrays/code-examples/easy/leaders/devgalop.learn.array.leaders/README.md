@@ -20,6 +20,11 @@ NOTA: El último número siempre es lider.
 
 # Planteamiento de solución
 
+Para dar solución a este problema, se realizan dos posibles soluciones:
+
+- **Ciclos anidados O(n^2)**: En esta solución se utilizan dos ciclos para recorrer y comparar cada uno de elementos del array con todos los valores de la derecha. Si el elemento comparado es más grande se guarda como el lider.
+
+- **Sufijo máximo O(n)**: El objetivo de esta aproximación es recorrer el array de derecha a izquierda, cuando el valor comparado es mayor que el máximo se añade a los resultados. Al finalizar el array se invierte el orden del resultado.
 
 
 Si desea conocer más sobre este problema, dirijase a la fuente [Geek for Geeks](https://www.geeksforgeeks.org/dsa/leaders-in-an-array/)
