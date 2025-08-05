@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "leaders", "leaders", "{E383
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devgalop.learn.array.leaders", "arrays\code-examples\easy\leaders\devgalop.learn.array.leaders\devgalop.learn.array.leaders.csproj", "{8B9C60A8-840A-44D4-A45B-8C6CDE552792}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-sorted", "is-sorted", "{930C4E56-D170-0527-E8EF-EBA8D56647A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devgalop.learn.array.is-sorted", "arrays\code-examples\easy\is-sorted\devgalop.learn.array.is-sorted\devgalop.learn.array.is-sorted.csproj", "{45DB36A0-C281-441C-8375-11CEFAAB9EC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,18 @@ Global
 		{8B9C60A8-840A-44D4-A45B-8C6CDE552792}.Release|x64.Build.0 = Release|Any CPU
 		{8B9C60A8-840A-44D4-A45B-8C6CDE552792}.Release|x86.ActiveCfg = Release|Any CPU
 		{8B9C60A8-840A-44D4-A45B-8C6CDE552792}.Release|x86.Build.0 = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|x64.Build.0 = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|x64.ActiveCfg = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|x64.Build.0 = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +78,8 @@ Global
 		{266DBB9F-05EF-D7CE-85C2-CDA994C55DF7} = {748BA1AE-5ABC-DF82-E755-7C016930BE40}
 		{E3837398-3FBB-4484-2AA0-7C365076FE45} = {18D405D4-5CB0-F0E8-A504-8FEA79446E57}
 		{8B9C60A8-840A-44D4-A45B-8C6CDE552792} = {E3837398-3FBB-4484-2AA0-7C365076FE45}
+		{930C4E56-D170-0527-E8EF-EBA8D56647A5} = {18D405D4-5CB0-F0E8-A504-8FEA79446E57}
+		{45DB36A0-C281-441C-8375-11CEFAAB9EC0} = {930C4E56-D170-0527-E8EF-EBA8D56647A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D7F1150-5C88-49F2-8964-86E12ECC1EAE}
